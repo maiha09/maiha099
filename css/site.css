@@ -123,17 +123,16 @@ grid-template-rows: repeat(3,1fr);
 }
 .background{
     color: white;
-  padding: 8px;
+  padding: 20px;
   text-align: center;
   font-size: 12px;
      display: flex;
     align-items: center;
-    justify-content: center;
     position: absolute;
-    bottom: 0;
-    left: 0;
+     bottom: 0;
     height: 50px;
     width: 85%;
+     border-bottom: 5px solid rgb(152, 147, 147);
     border-left: 5px solid rgb(152, 147, 147);
     border-right: 5px solid rgb(152, 147, 147);
     background: rgba(75, 44, 106, 0.85);
